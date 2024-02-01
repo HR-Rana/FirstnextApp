@@ -1,0 +1,68 @@
+
+
+export const SoldOfferList = [
+    {
+        id:"01",
+        name:"২৬০ মিনিট",
+        types:"Minutes",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"196 টাকা",
+        mobile:"0183706xxxx"
+    },
+    {
+        id:"02",
+        name:"১০ জিবি ১০০০ মিনিট ((সিমে লোন নেওয়া থাকলে লোন পরিশোধ করে নাম্বার দিবেন))",
+        types:"Data&Minutes",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"690 টাকা",
+        mobile:"0160366xxxx"
+    },
+    {
+        id:"03",
+        name:"২০০ মিনিট",
+        types:"Minutes",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"157 টাকা",
+        mobile:"0174104xxxx"
+    },
+    {
+        id:"04",
+        name:"৪০ জিবি ২০০ মিনিট",
+        types:"Data&Minutes",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"590 টাকা",
+        mobile:"0172733xxxx"
+    },
+    {
+        id:"05",
+        name:"১০০ জিবি★",
+        types:"Data",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"819 টাকা",
+        mobile:"0174104xxxx"
+    },
+    {
+        id:"06",
+        name:"৬০ জিবি",
+        types:"Data",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"649 টাকা",
+        mobile:"0174104xxxx"
+    },
+    {
+        id:"07",
+        name:"৫০/৫৫ জিবি ৭০০ মিনিট",
+        types:"Data",
+        status:"Approved",
+        brought:"7 hours ago",
+        price:"709 টাকা",
+        mobile:"0164638xxxx"
+    },
+
+]

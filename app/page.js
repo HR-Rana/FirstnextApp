@@ -1,7 +1,11 @@
+"use client"
 
 import React from 'react'
-import { metadata } from './layout';
+import '@/app/Assist/Css/style.css'
 import Table from './Components/CommonTable/Table';
+import { SoldOfferList } from './Components/TableData/Data';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
   
 export default function page() {
@@ -15,14 +19,22 @@ export default function page() {
            <h2 className="text-[48px]">
                 Recharge your mobile from any operator just a click.
            </h2>
-           <p className={'text-[24px]'}>Anytime. Anywhere.</p>
+           <p className={'text-[24px]'}>Anytime, Anywhere.</p>
        </div>
 
-       <div className="recenter-offer-selling-list">
+       <section>
+          <div className="recenter-offer-selling-list">
             <div className="selling-table">
-                <Table thead={heading}  />
+                <Table thead={heading} tbody={SoldOfferList} />
             </div>
        </div>
+       </section>
+
+       <section className='offer-section'>
+       
+       </section>
     </div>
   )
 }
+
+

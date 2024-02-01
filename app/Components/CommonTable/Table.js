@@ -20,10 +20,10 @@ export default function Table({thead, tbody, offer}) {
             {
               offer ?  
               tbody.map((items, i)=>{
-                const {packages,discount, today,official,Buy,priod} = items;
+                const {name,discount, today,official,Buy,priod} = items;
                     return(
                         <tr key="i">
-                            <td>{packages}</td>
+                            <td>{name}</td>
                             <td>{discount}</td>
                             <td>{today}</td>
                             <td>{official}</td>
@@ -34,12 +34,12 @@ export default function Table({thead, tbody, offer}) {
                 })
               
               : tbody.map((items, i)=>{
-                const {packages,status, sold,price,mobile} = items;
+                const {name,status, brought,price,mobile} = items;
                     return(
-                        <tr key="i">
-                            <td>{packages}</td>
+                        <tr key={i}>
+                            <td>{name}</td>
                             <td>{status}</td>
-                            <td>{sold}</td>
+                            <td>{brought}</td>
                             <td>{price}</td>
                             <td>{mobile}</td>
                         </tr>
