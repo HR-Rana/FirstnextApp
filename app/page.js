@@ -1,11 +1,11 @@
 "use client"
 
 import React from 'react'
-import '@/app/Assist/Css/style.css'
 import Table from './Components/CommonTable/Table';
 import { SoldOfferList } from './Components/TableData/Data';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import OfferSection from './Components/OfferSection/OfferSection';
 
   
 export default function page() {
@@ -14,7 +14,7 @@ export default function page() {
     const offers = ['ডিসকাউন্ট',	'আজকের দাম', 'অফিসিয়াল দাম','ক্রয় করুন',	'মেয়াদ / যেসব এরিয়া পাবে'];
 
   return (
-    <div className='Homepage'>
+    <div className='Homepage page'>
        <div className='Hero-title text-center '> 
            <h2 className="text-[48px]">
                 Recharge your mobile from any operator just a click.
@@ -31,7 +31,7 @@ export default function page() {
        </section>
 
        <section className='offer-section'>
-       
+        <OfferSection />
        </section>
     </div>
   )

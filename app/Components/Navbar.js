@@ -16,8 +16,8 @@ export default function Navbar() {
             <nav>
                 <ul className='flex justify-between'>
                     <li><Link href={"/"}>Home</Link></li>
-                    <li><Link href={"/login"}>Login</Link></li>
-                    <li><Link href={"/registration"}>Registration</Link></li>
+                    <li><Link href={"/Login"}>Login</Link></li>
+                    <li><Link href={"/Registration"}>Registration</Link></li>
                 </ul>
             </nav>
         </div>
