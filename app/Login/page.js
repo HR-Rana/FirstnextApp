@@ -8,14 +8,24 @@ export default function page() {
       <div className="login-content-box">
         <h3>Login</h3>
         <br/>
-        <p><Link href={"Login"} >New to Tong's Offer?</Link></p>
-        <form className='block'>
+        <p><Link href={"Login"} >New to Tong's Offer? <b>Registration</b> </Link></p>
+        <form className='block my-5'>
          <span>
-           <Input placeholder={"Email"} />
+          <label htmlFor="num">Mobile Number</label>
+           <Input placeholder={"Number"} id="num" />
          </span><br/>
          <span>
-           <Input placeholder={"password"}  />
+
+          <label htmlFor="Password">Password</label>
+           <Input placeholder={"Password"} id="Password" />
          </span>
+         <div className="flex justify-between">
+           <span className='flex'><input type="checkbox" id="rem" /> <label for="rem">Remember me</label></span>
+           <span>
+            <Link href="/ForgotPassword" >Forgot password?</Link>
+           </span><br/>
+         </div>
+         <input type="submit" value="Login" />
         </form>
       </div>
     </div>

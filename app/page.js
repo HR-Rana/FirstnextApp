@@ -3,8 +3,6 @@
 import React from 'react'
 import Table from './Components/CommonTable/Table';
 import { SoldOfferList } from './Components/TableData/Data';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
 import OfferSection from './Components/OfferSection/OfferSection';
 
   
@@ -15,16 +13,12 @@ export default function page() {
 
   return (
     <div className='Homepage page'>
-       <div className='Hero-title text-center '> 
-           <h2 className="text-[48px]">
-                Recharge your mobile from any operator just a click.
-           </h2>
-           <p className={'text-[24px]'}>Anytime, Anywhere.</p>
-       </div>
+       section
 
        <section>
           <div className="recenter-offer-selling-list">
             <div className="selling-table">
+              <h3>সাম্প্রতিক বিক্রি</h3>
                 <Table thead={heading} tbody={SoldOfferList} />
             </div>
        </div>

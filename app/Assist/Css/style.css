@@ -1,28 +1,92 @@
 
 
-.page{
-    padding:15px;
+:root{
+
+
+    --primaryColor:purple;
+    --black:black;
+    --white:white;
+    
 }
 
 
+
+
+
+.page {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navigation bar styles */
+.navbar-area{
+    background-color: black;
+    color:white;
+}
+
+
+/* offer sold list table */
+.recenter-offer-selling-list{
+    padding: 75px 0;
+    box-shadow: 0px 0px 3px rgba(0,0,0, .3);
+    margin: 50px 0;
+}
+.selling-table{
+    width:90%;
+    margin:15px auto;
+}
+.selling-table h3{
+    background-color:var(--black);
+    padding: 25px 0;
+    color:white;
+    font-size:32px;
+    text-align:center;
+    font-weight:70px;
+}
 /* data table */
 table {
     width: 100%;
+    margin: 0 auto;
     background-color: white;
 }
-table tr{
-    height:60px;
-    padding:10px 0;
-    margin: 25px 0 !important;
-    justify-content:center;
- box-shadow:0px 0px 5px rgba(0,0,0, .3)
+thead tr{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
 }
 
-table tr td{
-    box-shadow:0px 0px 5px rgba(0,0,0, .3);
-    justify-content:center;
-    padding:5px 0;
-    text-align:center;
+thead tr th{
+    text-align: left;
+    padding: 0px 15px;
+    background-color: var(--primaryColor);
+    color:white; 
+    font-size: 18px;
+    font-weight:900;
+    
+}
+
+table tr {
+    height: 60px;
+    padding: 10px 0;
+    margin: 25px 0 !important;
+  
+}
+
+table tr td {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    justify-content: center;
+    gap:5px;
+    padding: 5px 14px;
+    margin: 10px 0 !important;
 }
 
 
@@ -33,21 +97,43 @@ table tr td{
 
 
 /* signup page */
-.login-area{
-    width: 80%;
-    height:100%;
-    margin:0 auto;
-    background-color:red;
+.login-area {
+   width:100%;
+}
+.login-area h3{
+    font-size:32px;
+    font-weight: 700;
+}
+.login-area .login-content-box{
+     width:40%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 50px;
+   box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.711);
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
-form{
-    width:50%;
-    margin:0 auto;
-     display: block;
+.login-area form input {
+    width: 100%;
+    border: .5px solid #010101;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
 }
-.login-area form input{
-    width:100%;
-    border:.5px solid #010101;
-    margin:5px 0;
-    padding:10px;
+
+input[type="submit"]{
+    background-color:var(--primaryColor);
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    font-size:20px;
 }

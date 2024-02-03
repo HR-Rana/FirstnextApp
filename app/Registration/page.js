@@ -12,12 +12,21 @@ export default function page() {
         </h3>
         <br/>
         <p><Link href={"Login"} >New to Tong's Offer?</Link></p>
-        <form className='block'>
+        <form className='block my-5'>
          <span>
-           <Input placeholder={"Email"} />
+          <label htmlFor='name'>Full Name</label>
+           <Input type={'text'} placeholder={"Full Name"} id='name' />
          </span><br/>
          <span>
-           <Input placeholder={"password"}  />
+           <label htmlFor='num'>Mobile Number</label>
+           <Input type={'number'} placeholder={"Number"} id={'num'}/>
+         </span><br/>
+         <span>
+         <label htmlFor='Password'>Password</label>
+           <Input type={"password"} placeholder={"Password"} id={"Passowrd"} />
+         </span>
+         <span>
+           <Input type={"submit"} value={"Registration"} />
          </span>
         </form>
       </div>
