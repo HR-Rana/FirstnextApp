@@ -9,7 +9,7 @@ import OfferSection from './Components/OfferSection/OfferSection';
 export default function page() {
 
     const heading = ['প্যাকেজসমূহ',	'স্টাটাস',	"ক্রয় হয়েছে",	'রেগুলার দাম',	'মোবাইল নাম্বার'];
-    const offers = ['ডিসকাউন্ট',	'আজকের দাম', 'অফিসিয়াল দাম','ক্রয় করুন',	'মেয়াদ / যেসব এরিয়া পাবে'];
+    
 
   return (
     <div className='Homepage page'>

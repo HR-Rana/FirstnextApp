@@ -2,9 +2,13 @@ import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Table from '../../CommonTable/Table';
+import { AirtleBundle, AirtleMinutes, AirtleData } from '../../TableData/Data';
 
 
-export default function SimOffer({}) {
+export default function SimOffer({data, minutes, bundle}) {
+  const heading =  ['প্যাকেজসমূহ',	'ডিসকাউন্ট',	'আজকের দাম', 'অফিসিয়াল দাম',	'ক্রয় করুন',	'মেয়াদ / যেসব এরিয়া পাবে']
+
+
   return (
     <div>
         <div className=''>
@@ -16,14 +20,17 @@ export default function SimOffer({}) {
                 </TabList>
 
                 <TabPanel>
-                  <Table header={theader} tbody={tbody} />Data
+                  <Table thead={heading} tbody={data} offer={true}/>
                 </TabPanel>
+                
                 <TabPanel>
-                  <Table header={theader} tbody={tbody} />minutes
+                  <Table thead={heading} tbody={minutes} offer={true}/>
                 </TabPanel>
+                
                 <TabPanel>
-                  <Table header={theader} tbody={tbody} />bundles
+                  <Table thead={heading} tbody={bundle} offer={true}/>
                 </TabPanel>
+                
             </Tabs>
        </div>
     </div>

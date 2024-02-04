@@ -1,9 +1,13 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import SimOffer from './SimOffers/SimOffer';
+import { AirtleBundle, AirtleData, AirtleMinutes } from '../TableData/Data';
 
 
 export default function OfferSection() {
+
+
   return (
     <div>
        <h2>আকর্ষণীয় অফারসমূহ :-</h2>
@@ -19,19 +23,19 @@ export default function OfferSection() {
                 </TabList>
 
                 <TabPanel>
-                <h2>Data Packages</h2>
+                <SimOffer data={AirtleData} minutes={AirtleMinutes} bundle={AirtleBundle} />
                 </TabPanel>
                 <TabPanel>
-                <h2>Data and Talk time package</h2>
+                 <SimOffer data={AirtleData} minutes={AirtleMinutes} bundle={AirtleBundle} />
                 </TabPanel>
                 <TabPanel>
-                <h2>Talk time package</h2>
+                 <SimOffer data={AirtleData} minutes={AirtleMinutes} bundle={AirtleBundle} />
                 </TabPanel>
                 <TabPanel>
-                <h2>Data and Talk time package</h2>
+                 <SimOffer data={AirtleData} minutes={AirtleMinutes} bundle={AirtleBundle} />
                 </TabPanel>
                 <TabPanel>
-                <h2>Talk time package</h2>
+                 <SimOffer data={AirtleData} minutes={AirtleMinutes} bundle={AirtleBundle} />
                 </TabPanel>
             </Tabs>
        </div>

@@ -9,10 +9,9 @@ import Image from 'next/image'
 export default function Navbar() {
   return (
     <div className='navbar-area flex justify-between items-center'>
-        <div className='brand-logo w-[20]'>
+        <div className='brand-logo w-[20%]'>
             <Link href={'/'} >
                 <Image src={logo} alt={"Brand-logo"} width={100}></Image>
-                Recharge app
             </Link>
         </div>
         <div className='w-[50%]'>
@@ -23,6 +22,17 @@ export default function Navbar() {
                     <li><Link href={"/Registration"}>Registration</Link></li>
                 </ul>
             </nav>
+        </div>
+        <div className="user-profile">
+            <ul>
+                <li>
+                    <h6>Rahid</h6>
+                    <p>0135460455</p>
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
         </div>
     </div>
   )

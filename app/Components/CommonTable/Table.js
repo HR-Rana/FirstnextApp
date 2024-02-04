@@ -1,6 +1,8 @@
+import Link from 'next/link';
 import React from 'react'
+import Button from '../Elements/Button';
 
-export default function Table({thead, tbody, offer}) {
+export default function  Table({thead, tbody, offer}) {
 
 
   return (
@@ -20,14 +22,14 @@ export default function Table({thead, tbody, offer}) {
             {
               offer ?  
               tbody.map((items, i)=>{
-                const {name,discount, today,official,Buy,priod} = items;
+                const {name,types,discount, todayPrice,regularPrice,priod} = items;
                     return(
                         <tr key="i">
                             <td>{name}</td>
                             <td>{discount}</td>
-                            <td>{today}</td>
-                            <td>{official}</td>
-                            <td>{Buy}</td>
+                            <td>{todayPrice}</td>
+                            <td>{regularPrice}</td>
+                            <td><Link href={''} ><Button btnName={"Buy"} /></Link></td>
                             <td>{priod}</td>
                         </tr>
                     )
