@@ -9,10 +9,10 @@ export default function OfferSection() {
 
 
   return (
-    <div>
-       <h2>আকর্ষণীয় অফারসমূহ :-</h2>
+    <div className='offer-list-section'>
+       <h2>আকর্ষণীয় অফারসমূহ :</h2>
 
-       <div className=''>
+       <div className='offer-table'>
              <Tabs>
                 <TabList>
                 <Tab>Airtle</Tab>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import Button from '../Elements/Button';
+import { FaCheckDouble } from "react-icons/fa";
 
 export default function  Table({thead, tbody, offer}) {
 
@@ -29,7 +30,7 @@ export default function  Table({thead, tbody, offer}) {
                             <td>{discount}</td>
                             <td>{todayPrice}</td>
                             <td>{regularPrice}</td>
-                            <td><Link href={''} ><Button btnName={"Buy"} /></Link></td>
+                            <td><Link href={'/'} ><Button btnName={"Buy"} /></Link></td>
                             <td>{priod}</td>
                         </tr>
                     )
@@ -40,7 +41,7 @@ export default function  Table({thead, tbody, offer}) {
                     return(
                         <tr key={i}>
                             <td>{name}</td>
-                            <td>{status}</td>
+                            <td className='flex  items-center'> <FaCheckDouble /> {status}</td>
                             <td>{brought}</td>
                             <td>{price}</td>
                             <td>{mobile}</td>

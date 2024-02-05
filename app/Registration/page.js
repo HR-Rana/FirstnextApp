@@ -3,10 +3,13 @@
 import Link from 'next/link'
 import React from 'react'
 import Input from '../Components/Elements/Input'
+import Image from 'next/image'
+
 
 export default function page() {
   return (
    <div className='login-area signup-area'>
+        {/* <Image src={""} alt="logo" /> */}
       <div className="login-content-box">
         <h3>Registration
         </h3>

@@ -1,10 +1,16 @@
+"use client"
+
 import Link from 'next/link'
 import React from 'react'
 import Input from '../Components/Elements/Input'
 
+
 export default function page() {
   return (
     <div className='login-area'>
+        <div className="logo">
+          {/* <Image src={''} alt={"logo"} /> */}
+        </div>
       <div className="login-content-box">
         <h3>Login</h3>
         <br/>

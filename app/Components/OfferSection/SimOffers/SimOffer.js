@@ -11,7 +11,7 @@ export default function SimOffer({data, minutes, bundle}) {
 
   return (
     <div>
-        <div className=''>
+        <div className='package-table'>
              <Tabs>
                 <TabList>
                 <Tab>Data Packages</Tab>

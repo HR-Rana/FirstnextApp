@@ -13,7 +13,9 @@ export default function page() {
 
   return (
     <div className='Homepage page'>
-       section
+      <section className="banner-section">
+        <h2>ঈদুল ফিতরের শুভেচ্ছা </h2>
+      </section>
 
        <section>
           <div className="recenter-offer-selling-list">
