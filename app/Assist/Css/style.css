@@ -224,6 +224,72 @@ input[type="submit"]{
 
 
 
+
+/* Confirm order page */
+.order-placement-page{
+    width:100%;
+    height:90vh;
+    padding:50px 0 ;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.order-placement-page .offer-title h3{
+   font-size:22px;
+   text-transform:capitalize;
+   text-align:Center;
+}
+.order-placement-page .offer-title h4{
+   font-size:24px;
+    text-align:center;
+        font-weight:700;
+    text-transform:capitalize;
+   text-align:Center;
+}
+.order-placement-page .order-confirmation{
+    width:45%;
+    margin: auto auto !important;
+    padding:50px ;
+    box-shadow:0px 0px 5px rgba(0,0,0, .3);
+   border-radius:25px;
+}
+.order-placement-page form{ 
+  margin-top:50px;
+}
+.order-placement-page form h4{
+  font-size:20px;
+  font-weight:600;
+}
+.order-placement-page form h4::first-letter{
+  text-transform:uppercase;
+}
+.order-placement-page form input{
+ width:100%;
+ padding:15px;
+ border: 1px solid gray;
+ margin-bottom:15px;
+ border-radius:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background-color:black;
     color:white;

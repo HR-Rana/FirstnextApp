@@ -73,7 +73,7 @@ export const AirtleData =[
      {
         id:"01",
         name:"২৬০ মিনিট",
-        auth:"Minutes",
+        auth:"Banglalink",
         status:"Approved",
         discount:"159 টাকা",
         todayPrice:"196 টাকা",
@@ -83,7 +83,7 @@ export const AirtleData =[
     {
         id:"02",
         name:"১০ জিবি ১০০০ মিনিট ((সিমে লোন নেওয়া থাকলে লোন পরিশোধ করে নাম্বার দিবেন))",
-        auth:"Data&Minutes",
+        auth:"Airtle",
         status:"Approved",
         discount:"159 টাকা",
         todayPrice:"690 টাকা",

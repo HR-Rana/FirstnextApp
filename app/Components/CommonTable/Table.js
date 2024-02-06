@@ -23,14 +23,14 @@ export default function  Table({thead, tbody, offer}) {
             {
               offer ?  
               tbody.map((items, i)=>{
-                const {name,types,discount, todayPrice,regularPrice,priod} = items;
+                const {name,id,discount, todayPrice,regularPrice,priod} = items;
                     return(
                         <tr key="i">
                             <td>{name}</td>
                             <td>{discount}</td>
                             <td>{todayPrice}</td>
                             <td>{regularPrice}</td>
-                            <td><Link href={'/'} ><Button btnName={"Buy"} /></Link></td>
+                            <td onClick={console.log(id)}><Link href={`/Offer/${id}`} ><Button btnName={"Buy"} /></Link></td>
                             <td>{priod}</td>
                         </tr>
                     )
