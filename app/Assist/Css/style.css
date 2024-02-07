@@ -53,7 +53,84 @@
 .navbar-area {
     background-color: black;
     color: white;
+    
 }
+.navbar-area .nav-items{
+    width:60%;
+    display:flex;
+    justify-content:space-between !important;
+}
+.navbar-area nav{
+    width:100%;
+    display:flex;
+    justify-content:end !important;
+    text-align:right;
+}
+.navbar-area nav ul{
+    width:60%;
+    justify-content:space-between;
+}
+.navbar-area{
+    position:relative;
+}
+.navbar-area nav ul li ul{
+    width:200px;
+   position:absolute;
+   right:10px;
+   top:100%;
+   display:block;
+   padding:15px;
+   background-color:white;
+   box-shadow:0px 0px 5px rgba(210, 0, 172, 0.3);
+   justify-content:center;
+}
+.navbar-area nav ul li ul li{
+  color:black !important;
+  font-size:16px;
+  font-weight: 600;
+  display:flex;
+  align-items:Center;
+  justify-content:center;
+  gap:5px;
+  text-align:center;
+  padding:  8px 0;
+  transition:.2s;
+  -webkit-transition:.2s;
+  -moz-transition:.2s;
+  -ms-transition:.2s;
+  -o-transition:.2s;
+}
+.navbar-area nav ul li ul li:hover{
+   background-color:purple;
+   color:white !important;
+}
+.navbar-area nav ul li ul li svg{
+   font-size:30px ;
+}
+.navbar-area .nav-items{
+    position:relative;
+}
+.navbar-area .bars{
+    background-color:red;
+}
+.navbar-area .bars svg{
+    position:absolute;
+    top:-10px;
+    right:0px;
+    font-size:22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* offer sold list table */
@@ -85,6 +162,11 @@ table {
     width: 100%;
     margin: 0 auto;
     background-color: white;
+    transition: 2s !important;
+    -webkit-transition: 2s !important;
+    -moz-transition: 2s !important;
+    -ms-transition: 2s !important;
+    -o-transition: 2s !important;
 }
 
 table tr {
@@ -202,7 +284,7 @@ table tr td a button {
     height: 100%;
     margin: 50px auto;
     padding: 50px;
-    box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.711);
+    box-shadow: 0px 0px 10px rgba(201, 1, 232, 0.711);
 }
 
 form {
@@ -263,7 +345,7 @@ form span p {
     width: 45%;
     padding: 75px 35px;
     margin: 0 auto;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 5px purple;
 }
 
 .login-area .forgot-password h4 {
@@ -307,7 +389,7 @@ form span p {
     width: 45%;
     margin: auto auto !important;
     padding: 50px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 5px rgba(215, 2, 208, 0.3);
     border-radius: 25px;
 }
 

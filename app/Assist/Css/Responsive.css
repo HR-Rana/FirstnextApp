@@ -49,6 +49,12 @@
 
 
 @media (max-width:768px) {
+
+    .navbar-area nav ul{
+    width:80%;
+    justify-content:space-between;
+}
+
     .banner-section h2{
         font-size:32px;
     }
@@ -93,6 +99,11 @@
 
 
 @media (max-width:576px) {
+
+    .navbar-area nav{
+        display:none;
+    }
+
      .banner-section h2{
         font-size:24px;
     }

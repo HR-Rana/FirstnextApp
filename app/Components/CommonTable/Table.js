@@ -7,7 +7,7 @@ export default function  Table({thead, tbody, offer}) {
 
 
   return (
-    <table  className='table-auto'>
+    <table  className='table-auto transition duration-150 ease-in-out'>
         <thead>
             <tr key="">
                 {
