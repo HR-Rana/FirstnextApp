@@ -83,6 +83,7 @@
    background-color:white;
    box-shadow:0px 0px 5px rgba(210, 0, 172, 0.3);
    justify-content:center;
+   z-index:9999;
 }
 .navbar-area nav ul li ul li{
   color:black !important;
@@ -107,16 +108,17 @@
 .navbar-area nav ul li ul li svg{
    font-size:30px ;
 }
-.navbar-area .nav-items{
+.navbar-area{
     position:relative;
 }
 .navbar-area .bars{
     background-color:red;
+    display:none;
 }
 .navbar-area .bars svg{
     position:absolute;
-    top:-10px;
-    right:0px;
+    top:35%;
+    right:20px;
     font-size:22px;
 }
 
