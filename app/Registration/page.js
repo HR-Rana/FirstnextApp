@@ -4,26 +4,25 @@ import Link from 'next/link'
 import React from 'react'
 import Input from '../Components/Elements/Input'
 import Image from 'next/image'
-
+import logo from '@/app/Assist/Images/logo.jpg'
 
 export default function page() {
   return (
    <div className='login-area signup-area'>
-        {/* <Image src={""} alt="logo" /> */}
       <div className="login-content-box">
-        <h3>Registration
-        </h3>
+        <Link href="/" class="flex mx-auto"> <Image src={logo} width={100} height={100} alt="logo" /> </Link>
+        <h3>Registration  </h3>
         <br/>
-        <p><Link href={"Login"} >New to Tong's Offer?</Link></p>
+        <p><Link href={"/Login"} >Have any Account? <b>Login</b> </Link></p>
         <form className='block my-5'>
          <span>
           <label htmlFor='name'>Full Name</label>
            <Input type={'text'} placeholder={"Full Name"} id='name' />
-         </span><br/>
+         </span><br/><br/>
          <span>
            <label htmlFor='num'>Mobile Number</label>
            <Input type={'number'} placeholder={"Number"} id={'num'}/>
-         </span><br/>
+         </span><br/><br/>
          <span>
          <label htmlFor='Password'>Password</label>
            <Input type={"password"} placeholder={"Password"} id={"Passowrd"} />

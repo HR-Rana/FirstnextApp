@@ -1,19 +1,28 @@
+"use client"
+
 import React from 'react'
 import Input from '../Components/Elements/Input'
+// import logo from '@/app/Assist/Images/logo.jpg'
+// import Image from 'next/image'
+// import { Link } from 'next/link';
+
 
 export default function ResetPassword() {
   return (
-    <div className="forgot-password login-area">
-      <h3>Reset Your Password</h3><br/>   
+    <div className="ResetPassword login-area ">
+      <div className='forgot-password'>
+      {/* <Link href="/" class="flex mx-auto"> <Image src={logo} width={100} height={100} alt="logo" /> </Link> */}
+        <h4>Reset Your Password</h4><br/>   
         <form>
             <span>
                 <label htmlFor="num">Account Mobile No</label><br/>
                 <Input type={"number"} placeholder={'Mobile Number'} id={'num'}/><br/>
-                <label htmlFor="pass">New Password</label><br/>
-                <Input type={"password"} placeholder={'New Password'} id={'pass'}/><br/>
-                <Input type={"Submit"} value={"Submit"} />
+            </span>
+            <span>
+                 <Input type={"Submit"} value={"Submit"} />
             </span>
         </form>
+      </div>
     </div>
   )
 }

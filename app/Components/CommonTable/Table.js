@@ -7,7 +7,7 @@ export default function  Table({thead, tbody, offer}) {
 
 
   return (
-    <table  className='table'>
+    <table  className='table-auto'>
         <thead>
             <tr key="">
                 {

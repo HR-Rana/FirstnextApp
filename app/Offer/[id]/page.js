@@ -1,7 +1,14 @@
 
-import React from 'react'
+// import { useRouter } from 'next/router'
 
 export default function page() {
+  // const params = useRouter();
+  // const id = params.query.id;
+
+  // console.log(id);
+  console.log("hello js")
+   
+
   return (
     <div className='order-placement-page'>
       <div className="order-confirmation">

@@ -1,12 +1,10 @@
+:root {
 
 
-:root{
+    --primaryColor: purple;
+    --black: black;
+    --white: white;
 
-
-    --primaryColor:purple;
-    --black:black;
-    --white:white;
-    
 }
 
 
@@ -18,26 +16,27 @@
 }
 
 
-.banner-section{
-    width:90%;
-    margin:0 auto;
-    height:40vh;
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.587)), url("../Images/banner.jpg");
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    border-radius:15px;
-    -webkit-border-radius:15;
-    -moz-border-radius:15;
-    -ms-border-radius:15;
-    -o-border-radius:15;
+.banner-section {
+    width: 90%;
+    margin: 0 auto;
+    height: 40vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.587)), url("../Images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    -ms-border-radius: 15;
+    -o-border-radius: 15;
 }
-.banner-section h2{
-    height:100%;
-    font-size:40px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+.banner-section h2 {
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -51,30 +50,32 @@
 
 
 /* navigation bar styles */
-.navbar-area{
+.navbar-area {
     background-color: black;
-    color:white;
+    color: white;
 }
 
 
 /* offer sold list table */
-.recenter-offer-selling-list{
+.recenter-offer-selling-list {
     padding: 75px 0;
-    box-shadow: 0px 0px 3px rgba(0,0,0, .3);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
     margin: 50px 0;
-    overflow-x:auto;
+    overflow-x: auto;
 }
-.selling-table{
-    width:90%;
-    margin:15px auto;
+
+.selling-table {
+    width: 90%;
+    margin: 15px auto;
 }
-.selling-table h3{
-    background-color:var(--black);
+
+.selling-table h3 {
+    background-color: var(--black);
     padding: 25px 0;
-    color:white;
-    font-size:32px;
-    text-align:center;
-    font-weight:70px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 70px;
 }
 
 
@@ -85,93 +86,101 @@ table {
     margin: 0 auto;
     background-color: white;
 }
-table tr{
+
+table tr {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
 }
 
-thead tr th{
+thead tr th {
     text-align: left;
     padding: 10px 15px;
     background-color: var(--primaryColor);
-    color:white; 
+    color: white;
     font-size: 16px;
-    font-weight:900;
-    
+    font-weight: 900;
+
 }
 
 table tr {
-  height:80px;
+    height: 80px;
 }
 
 table tr td {
     justify-content: center;
-    gap:5px;
+    gap: 5px;
     padding: 5px 14px;
     margin: 10px 0 !important;
     font-weight: 600;
 }
-table tr td:first-child{
-    width:35%;
-    padding-right:25px;
-}
-table tr td svg{
-    color:purple;
+
+table tr td:first-child {
+    width: 35%;
+    padding-right: 25px;
 }
 
-table tr td a{
-    width:100%;
-    padding:10px 25px;
-    background-color:var(--primaryColor);
-    color:white;
-    border-radius:10px;
+table tr td svg {
+    color: purple;
 }
 
-table tr td a button{
-    font-weight:600;
-   text-transform:uppercase;
+table tr td a {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 10px;
+}
+
+table tr td a button {
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 
 /* table tabs */
 .react-tabs__tab-list {
-    text-align:center;
+    text-align: center;
 }
 
-.package-table .react-tabs{
-    padding:25px 0;
+.package-table .react-tabs {
+    padding: 25px 0;
 }
-.react-tabs__tab{
-    font-size:22px;
+
+.react-tabs__tab {
+    font-size: 22px;
 }
+
 .package-table .react-tabs__tab-list {
-    text-align:left;
-    font-size:20px;
-    color:var(--PrimaryColor);
+    text-align: left;
+    font-size: 20px;
+    color: var(--PrimaryColor);
 }
+
 .react-tabs__tab--selected {
-    background-color:purple !important;
-    color:white !important;
+    background-color: purple !important;
+    color: white !important;
 }
 
 
 /* offer list section */
-.offer-section{    
+.offer-section {
     padding: 75px 0;
-    box-shadow: 0px 0px 3px rgba(0,0,0, .3);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
     margin: 50px 0;
-}
-.offer-list-section{
-    width:92%;
-    margin:0 auto;
     overflow-x: auto;
 }
-.offer-list-section h2{
-    background-color:black;
-    color:white;
-    text-align:center;
-    font-size:32px;
-    padding:25px 0;
-    margin:35px 0;
+
+.offer-list-section {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.offer-list-section h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 25px 0;
+    margin: 35px 0;
 }
 
 
@@ -179,19 +188,23 @@ table tr td a button{
 
 /* signup page */
 .login-area {
-   width:100%;
+    width: 100%;
+    padding: 100px 0;
 }
-.login-area h3{
-    font-size:32px;
+
+.login-area h3 {
+    font-size: 32px;
     font-weight: 700;
 }
-.login-area .login-content-box{
-     width:40%;
+
+.login-area .login-content-box {
+    width: 40%;
     height: 100%;
     margin: 50px auto;
     padding: 50px;
-   box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.711);
+    box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.711);
 }
+
 form {
     width: 100%;
     margin: 0 auto;
@@ -211,66 +224,113 @@ form {
     outline: none;
 }
 
-input[type="submit"]{
-    background-color:var(--primaryColor);
-    color:white;
-    cursor:pointer;
-    font-weight:600;
-    font-size:20px;
+input[type="submit"] {
+    background-color: var(--primaryColor);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+form span input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+form span {
+    width: 50%;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+form span p {
+    text-align: right;
+    color: red;
+    font-weight: 600;
 }
 
 
+.ResetPassword {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-area .forgot-password {
+    width: 45%;
+    padding: 75px 35px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+}
+
+.login-area .forgot-password h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.login-area h3 {
+    margin-top: 25px;
+}
 
 
 
 
 
 /* Confirm order page */
-.order-placement-page{
-    width:100%;
-    height:90vh;
-    padding:50px 0 ;
-   display:flex;
-   align-items:center;
-   justify-content:center;
+.order-placement-page {
+    width: 100%;
+    height: 90vh;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.order-placement-page .offer-title h3{
-   font-size:22px;
-   text-transform:capitalize;
-   text-align:Center;
+
+.order-placement-page .offer-title h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: Center;
 }
-.order-placement-page .offer-title h4{
-   font-size:24px;
-    text-align:center;
-        font-weight:700;
-    text-transform:capitalize;
-   text-align:Center;
+
+.order-placement-page .offer-title h4 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: Center;
 }
-.order-placement-page .order-confirmation{
-    width:45%;
+
+.order-placement-page .order-confirmation {
+    width: 45%;
     margin: auto auto !important;
-    padding:50px ;
-    box-shadow:0px 0px 5px rgba(0,0,0, .3);
-   border-radius:25px;
-}
-.order-placement-page form{ 
-  margin-top:50px;
-}
-.order-placement-page form h4{
-  font-size:20px;
-  font-weight:600;
-}
-.order-placement-page form h4::first-letter{
-  text-transform:uppercase;
-}
-.order-placement-page form input{
- width:100%;
- padding:15px;
- border: 1px solid gray;
- margin-bottom:15px;
- border-radius:20px;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    border-radius: 25px;
 }
 
+.order-placement-page form {
+    margin-top: 50px;
+}
+
+.order-placement-page form h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order-placement-page form h4::first-letter {
+    text-transform: uppercase;
+}
+
+.order-placement-page form input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
 
 
 
@@ -290,8 +350,9 @@ input[type="submit"]{
 
 
 
-footer{
-    background-color:black;
-    color:white;
-    padding:50px;
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
 }

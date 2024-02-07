@@ -21,23 +21,11 @@ export default function Navbar() {
                     <li><Link href={"/"}>Home</Link></li>
                     <li><Link href={"/Login"}>Login</Link></li>
                     <li><Link href={"/Registration"}>Registration</Link></li>
-                </ul>
-            </nav>
-        </div>
-        <div className="user-profile">
-            <ul className={"flex gap-[20px] text-right justify-between items-center"}>
-                <li>
-                    <h6>Blance</h6>
-                    <p>260 Tk</p>
-                </li>
-                <li>
-                    <h6>Rahid</h6>
-                    <p>0135460455</p>
-                </li>
-                <li className="text-3xl">
+                    <li className="text-3xl">
                     <FaCircleUser />
                 </li>
-            </ul>
+                </ul>
+            </nav>
         </div>
     </div>
   )

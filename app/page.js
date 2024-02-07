@@ -16,7 +16,10 @@ export default function page() {
       <section className="banner-section">
         <h2>ঈদুল ফিতরের শুভেচ্ছা </h2>
       </section>
-
+       <section className='offer-section'>
+        <OfferSection />
+       </section>
+       
        <section>
           <div className="recenter-offer-selling-list">
             <div className="selling-table">
@@ -24,10 +27,6 @@ export default function page() {
                 <Table thead={heading} tbody={SoldOfferList} />
             </div>
        </div>
-       </section>
-
-       <section className='offer-section'>
-        <OfferSection />
        </section>
     </div>
   )
